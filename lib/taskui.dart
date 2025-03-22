@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:task_ui/UI/Screens/CreateAccountScreen.dart';
+import 'package:task_ui/UI/Screens/ShopCategoriesScreen.dart';
 import 'package:task_ui/UI/Screens/SignInScreen.dart';
 import 'package:task_ui/UI/Screens/TellUsAboutScreen.dart';
 
@@ -8,6 +9,9 @@ class TaskUi extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(debugShowCheckedModeBanner: false, home: TellUsAboutScreen());
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: ShopCategoriesScreen(),
+    );
   }
 }
