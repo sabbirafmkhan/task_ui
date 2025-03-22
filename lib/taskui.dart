@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:task_ui/UI/Screens/CreateAccountScreen.dart';
 import 'package:task_ui/UI/Screens/SignInScreen.dart';
 
 class TaskUi extends StatelessWidget {
@@ -6,6 +7,6 @@ class TaskUi extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(debugShowCheckedModeBanner: false, home: SignInScreen());
+    return MaterialApp(debugShowCheckedModeBanner: false, home: CreateAccountScreen());
   }
 }
